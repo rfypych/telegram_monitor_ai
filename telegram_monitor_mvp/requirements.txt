@@ -1,3 +1,4 @@
 telethon
 pandas
 python-dotenv
+groq

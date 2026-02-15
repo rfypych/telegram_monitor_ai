@@ -17,8 +17,9 @@ TARGET_CHANNELS = os.getenv("TARGET_CHANNELS", "").split(",")
 # Output file
 OUTPUT_FILE = os.getenv("OUTPUT_FILE", "telegram_data.csv")
 
-# OpenAI API Key (optional for future AI integration)
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+# Groq AI Configuration
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+GROQ_MODEL = os.getenv("GROQ_MODEL", "mixtral-8x7b-32768")
 
 def is_configured():
     """Check if API credentials are provided."""
