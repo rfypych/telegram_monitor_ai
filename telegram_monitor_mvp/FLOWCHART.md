@@ -4,9 +4,9 @@ This flowchart illustrates how the Telegram Monitor processes messages from star
 
 ```mermaid
 flowchart TD
-    A[Start Script] --> B{Load Config (.env)}
-    B -->|API Keys Present| C[Connect to Telegram (Telethon)]
-    B -->|Missing Keys| D[Start Mock Mode (Simulation)]
+    A[Start Script] --> B{"Load Config (.env)"}
+    B -->|API Keys Present| C[Connect to Telegram Telethon]
+    B -->|Missing Keys| D[Start Mock Mode Simulation]
 
     C --> E[Historical Backfill]
     E --> F[Fetch Last N Messages]
@@ -15,7 +15,7 @@ flowchart TD
     E --> H[Start Live Listener]
     H -->|New Message Arrives| G
 
-    G --> I[Parser (Regex)]
+    G --> I[Parser Regex]
     I -->|Extract Price/Item| J{Valid Price Found?}
 
     J -->|No| K[Mark as Unpriced]
@@ -23,7 +23,7 @@ flowchart TD
 
     L -->|No| M[Skip Valuation]
     L -->|Yes| N[Call Groq AI API]
-    N -->|Get Valuation| O[Add 'Good Deal'/'Overpriced' Tag]
+    N -->|Get Valuation| O["Add Good Deal / Overpriced Tag"]
 
     K --> P[Export to CSV]
     M --> P
