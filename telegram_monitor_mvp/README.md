@@ -37,3 +37,13 @@ This generates fake Telegram messages and processes them, allowing you to see th
 -   `src/parser.py`: Logic for extracting price/item info.
 -   `src/exporter.py`: Logic for saving data to CSV.
 -   `src/config.py`: Configuration loader.
+
+## Data Viewer (Dashboard)
+
+Jika Anda kesulitan membaca file CSV secara manual, gunakan script viewer ini untuk melihat data dalam tampilan tabel yang rapi di terminal:
+
+```bash
+python -m src.viewer
+```
+
+Script ini akan otomatis refresh setiap 5 detik menampilkan 10 data terbaru.
