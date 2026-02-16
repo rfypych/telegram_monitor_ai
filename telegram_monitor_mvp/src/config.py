@@ -19,7 +19,7 @@ OUTPUT_FILE = os.getenv("OUTPUT_FILE", "telegram_data.csv")
 
 # Groq AI Configuration
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
-GROQ_MODEL = os.getenv("GROQ_MODEL", "mixtral-8x7b-32768")
+GROQ_MODEL = os.getenv("GROQ_MODEL", "llama3-8b-8192")
 
 # Backfill Configuration
 BACKFILL_LIMIT = int(os.getenv("BACKFILL_LIMIT", "50"))
