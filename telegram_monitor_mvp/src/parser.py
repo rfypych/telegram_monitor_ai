@@ -3,6 +3,17 @@ import re
 def extract_product_info(text):
     """
     Extracts structured information from a raw Telegram message.
+
+    NOTE ON LIMITATIONS (MVP):
+    This parser uses strict Regex patterns to identify prices. It works best for:
+    - Structured "For Sale" posts (e.g., "Price: 00")
+    - Clear currency symbols (0, Rp 50000)
+
+    It may struggle with:
+    - Ambiguous prices ("Offer?", "DM for price")
+    - Complex text descriptions without clear delimiters.
+
+    Future improvements could involve LLM-based parsing for unstructured text.
     """
     if not text:
         return None
