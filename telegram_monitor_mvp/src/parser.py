@@ -3,6 +3,7 @@ import re
 def extract_product_info(text):
     """
     Extracts structured information from a raw Telegram message.
+    Optimized for International Markets (USD, EUR, Crypto).
     """
     if not text:
         return None
@@ -13,18 +14,21 @@ def extract_product_info(text):
     price_raw = "N/A"
     currency = "Unknown"
 
-    # 1. Look for explicit keywords "Price:", "Harga:", "Mahar:", "BIN:"
-    explicit_price_pattern = r'(?i)(?:price|harga|mahar|bin|net)\s*[:\-\s]+\s*([^\n]+)'
+    # 1. Look for explicit keywords "Price:", "BIN:", "Cost:", "Budget:"
+    explicit_price_pattern = r'(?i)(?:price|bin|cost|budget|ask)\s*[:\-\s]+\s*([^\n]+)'
     explicit_match = re.search(explicit_price_pattern, text)
 
     if explicit_match:
         price_raw = explicit_match.group(1).strip()
     else:
         # 2. Fallback: Search for currency patterns directly
-        # Improved to catch: 50k, 50rb, 100USD, Rp50.000
+        # Patterns: 00, 100 USD, 50k (generic), 100 USDT, €50
 
-        # Matches numbers followed by optional k/rb/jt/currency
-        strong_pattern = r'(?i)($\s*\d[\d.,]*[kK]?|Rp\s*\d[\d.,]*[kKrbjt]*|\d[\d.,]*\s*(?:USD|IDR|USDT|rb|jt|k|K)\b)'
+        # Matches:
+        # - Symbol at start: 00, €50, £50
+        # - Number + Currency: 100 USD, 100 EUR
+        # - Number + k (thousands): 50k
+        strong_pattern = r'(?i)([$€£]\s*\d[\d.,]*[kK]?|\d[\d.,]*\s*(?:USD|EUR|GBP|USDT|ETH|BTC|k|K)\b)'
 
         matches = re.search(strong_pattern, text)
         if matches:
@@ -35,17 +39,21 @@ def extract_product_info(text):
         lower_price = price_raw.lower()
         if '$' in price_raw or 'usd' in lower_price:
             currency = 'USD'
-        elif 'rp' in lower_price or 'idr' in lower_price or 'rb' in lower_price or 'jt' in lower_price:
-            currency = 'IDR'
+        elif '€' in price_raw or 'eur' in lower_price:
+            currency = 'EUR'
+        elif '£' in price_raw or 'gbp' in lower_price:
+            currency = 'GBP'
         elif 'usdt' in lower_price:
             currency = 'USDT'
-        elif 'k' in lower_price:
-            # Assume IDR if 'k' is used in loose context, but this is ambiguous
-            pass
+        elif 'eth' in lower_price:
+            currency = 'ETH'
+        elif 'btc' in lower_price:
+            currency = 'BTC'
+        # 'k' without symbol is ambiguous, defaulting to Unknown/USD context usually
 
-    # Status
+    # Status Detection
     status = "Available"
-    if re.search(r'(?i)(sold|laku|taken|close)', text):
+    if re.search(r'(?i)(sold|taken|closed|out of stock)', text):
         status = "Sold"
 
     return {
@@ -60,11 +68,11 @@ if __name__ == "__main__":
     samples = [
         "Selling iPhone 13 Pro Max\nPrice: 50\nCondition: Good",
         "WTS MacBook Air M1\nBIN: 700 USD\nDm me",
-        "Jual akun Netflix Premium\nHarga Rp 50.000 / bulan",
-        "[SOLD] PS5 Digital Edition\nMahar 4.5jt nego",
+        "Netflix Premium Account\nCost: 5 USD / month",
+        "[SOLD] PS5 Digital Edition\n00",
         "Cheap VPS 4GB RAM\n10 USDT per month",
-        "Jual Akun ML Mythic\n50k aja fast",
-        "Promo Joki Tugas\nMulai 50rb"
+        "Selling 100k Gold WoW\nPrice: 50 EUR",
+        "Hiring Python Dev\nBudget: 500k (ambiguous)"
     ]
     for s in samples:
         print(f"Input: {s.splitlines()[0]}")
