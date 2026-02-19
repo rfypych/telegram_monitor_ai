@@ -2,3 +2,4 @@ telethon
 pandas
 python-dotenv
 groq
+tabulate

@@ -1,0 +1,958 @@
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Telegram Monitor Dashboard</title>
+            <meta http-equiv="refresh" content="10"> <!-- Auto-refresh every 10s -->
+            <style>
+                body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f4f4f9; color: #333; margin: 20px; }
+                h1 { color: #2c3e50; text-align: center; }
+                .meta { text-align: center; margin-bottom: 20px; color: #7f8c8d; font-size: 0.9em; }
+                table { width: 100%; border-collapse: collapse; margin-top: 20px; background: white; box-shadow: 0 1px 3px rgba(0,0,0,0.2); border-radius: 8px; overflow: hidden; }
+                th, td { padding: 12px 15px; text-align: left; border-bottom: 1px solid #ddd; }
+                th { background-color: #34495e; color: white; text-transform: uppercase; font-size: 0.85em; letter-spacing: 1px; }
+                tr:hover { background-color: #f1f1f1; }
+                
+                /* Valuation Colors */
+                .val-good { background-color: #d4efdf; color: #145a32; font-weight: bold; }
+                .val-bad { background-color: #fadbd8; color: #7b241c; font-weight: bold; }
+                .val-fair { background-color: #fdebd0; color: #9c640c; font-weight: bold; }
+                .val-unknown { color: #7f8c8d; }
+                .val-error { background-color: #e74c3c; color: white; font-weight: bold; }
+
+                .price { font-family: 'Consolas', monospace; font-weight: bold; color: #2980b9; }
+                .refresh-note { text-align: center; margin-top: 20px; font-size: 0.8em; color: #95a5a6; }
+                .channel-tag { background-color: #3498db; color: white; padding: 2px 6px; border-radius: 4px; font-size: 0.8em; }
+            </style>
+        </head>
+        <body>
+            <h1>🤖 Telegram Monitor & AI Valuation</h1>
+        
+            <div class="meta">
+                Last Updated: 2026-02-17 12:02:20 | 
+                Total Items Scraped: <strong>382</strong> | 
+                Source: scraped_listings.csv
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th style="width: 15%">Time</th>
+                        <th style="width: 15%">Channel</th>
+                        <th style="width: 25%">Item Name</th>
+                        <th style="width: 10%">Price</th>
+                        <th style="width: 10%">Valuation</th>
+                        <th style="width: 25%">Reasoning</th>
+                    </tr>
+                </thead>
+                <tbody>
+        
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:46</td>
+                        <td><span class="channel-tag">Whale Alert Signals</span></td>
+                        <td><strong>Id do the 200 initially and after the 48hrs I'd invest more.</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:46</td>
+                        <td><span class="channel-tag">Whale Alert Signals</span></td>
+                        <td><strong>Sent.</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:46</td>
+                        <td><span class="channel-tag">Whale Alert Signals</span></td>
+                        <td><strong>Confirm receipt.</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:46</td>
+                        <td><span class="channel-tag">Whale Alert Signals</span></td>
+                        <td><strong>📍Coin : #COMP/USDT</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:46</td>
+                        <td><span class="channel-tag">Whale Alert Signals</span></td>
+                        <td><strong>**🌐 ****#COMP****        ****#Crypto_Signal****</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:46</td>
+                        <td><span class="channel-tag">Whale Alert Signals</span></td>
+                        <td><strong>**🌐 ****#COMP****        ****#Crypto_Signal****</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:46</td>
+                        <td><span class="channel-tag">Whale Alert Signals</span></td>
+                        <td><strong>**🌐 ****#COMP****        ****#Crypto_Signal****</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:46</td>
+                        <td><span class="channel-tag">Whale Alert Signals</span></td>
+                        <td><strong>📍Coin : #NEAR/USDT</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:46</td>
+                        <td><span class="channel-tag">Whale Alert Signals</span></td>
+                        <td><strong>#GRT</strong></td>
+                        <td class="price">$1. USD</td>
+                        <td class="val-fair">Fair</td>
+                        <td style="font-size: 0.9em;">The price of $1 is considered fair as it reflects the current market analysis and support zone, with potential for a move higher to $1.10.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:44</td>
+                        <td><span class="channel-tag">Whale Alert Signals</span></td>
+                        <td><strong>#RENDER is consolidating near the **support zone** inside the **descending** **channel** pattern on </strong></td>
+                        <td class="price">$12.00 USD</td>
+                        <td class="val-fair">Fair</td>
+                        <td style="font-size: 0.9em;">The price of $12.00 is mentioned as a potential target, suggesting it's a forecasted value rather than an undervalued or overvalued price.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:41</td>
+                        <td><span class="channel-tag">Whale Alert Signals</span></td>
+                        <td><strong>**🌐 **#NEAR        #Crypto**</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:41</td>
+                        <td><span class="channel-tag">Whale Alert Signals</span></td>
+                        <td><strong>📍Coin : #STORJ/USDT</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:41</td>
+                        <td><span class="channel-tag">Whale Alert Signals</span></td>
+                        <td><strong>**🌐 **#STORJ        #Crypto_Signal**</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:41</td>
+                        <td><span class="channel-tag">Whale Alert Signals</span></td>
+                        <td><strong>🌐 #STORJ        #Crypto_Signal</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:40</td>
+                        <td><span class="channel-tag">Whale Alert Signals</span></td>
+                        <td><strong>**🌐 **#STORJ        #Crypto_Signal**</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:40</td>
+                        <td><span class="channel-tag">Whale Alert Signals</span></td>
+                        <td><strong>**To Our Valued Investors,</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:40</td>
+                        <td><span class="channel-tag">Whale Alert Signals</span></td>
+                        <td><strong>**SPECIAL OFFER.... Recover your loss.</strong></td>
+                        <td class="price">ME HOW. Unknown</td>
+                        <td class="val-bad">Overpriced</td>
+                        <td style="font-size: 0.9em;">The promised returns are unrealistically high and unsustainable, indicating a potential scam.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:38</td>
+                        <td><span class="channel-tag">Whale Alert Signals</span></td>
+                        <td><strong>**🌐 ****#STORJ****        ****#Crypto_Signal****</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:38</td>
+                        <td><span class="channel-tag">Whale Alert Signals</span></td>
+                        <td><strong>**🌐 ****#STORJ****        ****#Crypto_Signal****</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:38</td>
+                        <td><span class="channel-tag">Whale Alert Signals</span></td>
+                        <td><strong>📢 🤑📱📱🤑</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:38</td>
+                        <td><span class="channel-tag">Whale Alert Signals</span></td>
+                        <td><strong>SUCCESSFUL BITCOIN INVESTMENT PROFIT PAYOUT PROOFS TO OUR INVESTORS FOR FEBRUARY 16TH , 2026</strong></td>
+                        <td class="price">$1,796,574 USD</td>
+                        <td class="val-bad">Overpriced</td>
+                        <td style="font-size: 0.9em;">The listing appears to be a scam, as it claims to be a successful bitcoin investment payout but is actually selling nothing tangible for an extremely high price.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:35</td>
+                        <td><span class="channel-tag">Whale Alert Signals</span></td>
+                        <td><strong>IF YOU HAD INVESTED WITH US, RIGHT NOW YOU WOULD HAVE BEEN COUNTING PROFITS.</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:35</td>
+                        <td><span class="channel-tag">Whale Alert Signals</span></td>
+                        <td><strong>📍Coin : #RPL/USDT</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:35</td>
+                        <td><span class="channel-tag">Whale Alert Signals</span></td>
+                        <td><strong>**🌐 ****#RPL****        ****#Crypto_Signal****</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:34</td>
+                        <td><span class="channel-tag">ICO Drops - ICO News & Alerts</span></td>
+                        <td><strong>Sam Bankman-Fried: “Agree with almost all of this.</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:34</td>
+                        <td><span class="channel-tag">ICO Drops - ICO News & Alerts</span></td>
+                        <td><strong>Tether Announces Strategic Investment in LayerZero Labs</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:34</td>
+                        <td><span class="channel-tag">ICO Drops - ICO News & Alerts</span></td>
+                        <td><strong>**📈**** Top Perp DEXs by LP Vault APR Last Month**</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:34</td>
+                        <td><span class="channel-tag">ICO Drops - ICO News & Alerts</span></td>
+                        <td><strong>The crypto market is down</strong></td>
+                        <td class="price">$2.35 USD</td>
+                        <td class="val-fair">Fair</td>
+                        <td style="font-size: 0.9em;">The price of $2.35T for the total crypto market cap is a reflection of the current market conditions and does not appear to be significantly inflated or deflated.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:32</td>
+                        <td><span class="channel-tag">ICO Drops - ICO News & Alerts</span></td>
+                        <td><strong>Interactive Brokers announced the launch of Coinbase Derivatives, LLC nano Bitcoin and nano Ether fu</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:32</td>
+                        <td><span class="channel-tag">ICO Drops - ICO News & Alerts</span></td>
+                        <td><strong>JPMorgan cut its December 2026 price target on Coinbase to $290 from $399 ahead of fourth-quarter ea</strong></td>
+                        <td class="price">target on Coinbase to $290 from $399 ahead of fourth-quarter earnings, citing weaker crypto trading volumes, softer prices and slower USDC growth. USD</td>
+                        <td class="val-fair">Fair</td>
+                        <td style="font-size: 0.9em;">The price target of $290 is a reduction from $399, indicating a potential adjustment to fair market value based on weaker market conditions.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:29</td>
+                        <td><span class="channel-tag">ICO Drops - ICO News & Alerts</span></td>
+                        <td><strong>**LayerZero introduced Zero, a new blockchain design using zero-knowledge proofs and a split validat</strong></td>
+                        <td class="price">increased by 40% following the announcement.** Unknown</td>
+                        <td class="val-fair">Fair</td>
+                        <td style="font-size: 0.9em;">The 40% price increase following the announcement suggests a market reaction to the news, which may reflect fair market value given the potential of the new blockchain design.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:26</td>
+                        <td><span class="channel-tag">ICO Drops - ICO News & Alerts</span></td>
+                        <td><strong>**Goldman Sachs Holds $2.36B in Crypto ETFs**</strong></td>
+                        <td class="price">$2.36 USD</td>
+                        <td class="val-bad">Overpriced</td>
+                        <td style="font-size: 0.9em;">The price of $2.36 USD is extremely low compared to the actual value of $2.36 billion in crypto ETFs held by Goldman Sachs.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:23</td>
+                        <td><span class="channel-tag">ICO Drops - ICO News & Alerts</span></td>
+                        <td><strong>**Robinhood Chain Launches Public Testnet</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:23</td>
+                        <td><span class="channel-tag">ICO Drops - ICO News & Alerts</span></td>
+                        <td><strong>Binance Futures Launched USDⓈ-Margined AZTECUSDT Perpetual Contract Pre-Market Trading**</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:23</td>
+                        <td><span class="channel-tag">ICO Drops - ICO News & Alerts</span></td>
+                        <td><strong>Bitcoin and Ethereum are now available in TON Wallet</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:23</td>
+                        <td><span class="channel-tag">ICO Drops - ICO News & Alerts</span></td>
+                        <td><strong>Stripe launches machine payments for AI agents using USDC on Base</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:23</td>
+                        <td><span class="channel-tag">ICO Drops - ICO News & Alerts</span></td>
+                        <td><strong>Crypto's banker adversaries didn't want to deal in latest White House meeting on bill</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:23</td>
+                        <td><span class="channel-tag">ICO Drops - ICO News & Alerts</span></td>
+                        <td><strong>Franklin Templeton, Binance roll out program letting institutions use tokenized money funds as tradi</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:23</td>
+                        <td><span class="channel-tag">ICO Drops - ICO News & Alerts</span></td>
+                        <td><strong>Securitize has partnered with Uniswap to enable on-chain trading of (BUIDL) BlackRock’s USD Institut</strong></td>
+                        <td class="price">has increased by 40%. Unknown</td>
+                        <td class="val-fair">Fair</td>
+                        <td style="font-size: 0.9em;">The 40% price increase of UNI is likely a market reaction to the partnership news, reflecting its potential value in enabling on-chain trading.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:20</td>
+                        <td><span class="channel-tag">ICO Drops - ICO News & Alerts</span></td>
+                        <td><strong>The crypto market is down</strong></td>
+                        <td class="price">$2.32 USD</td>
+                        <td class="val-fair">Fair</td>
+                        <td style="font-size: 0.9em;">The price of $2.32 USD appears to be a market capitalization value rather than a sales price of an item, making it a fair representation of the current crypto market cap.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:17</td>
+                        <td><span class="channel-tag">ICO Drops - ICO News & Alerts</span></td>
+                        <td><strong>**CoinList Announces the ****USD.AI**** Token Sale</strong></td>
+                        <td class="price">$0.03 USD</td>
+                        <td class="val-good">Good Deal</td>
+                        <td style="font-size: 0.9em;">The price of $0.03 with a potential fully diluted valuation of $300,000,000 suggests a significant potential for growth.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:14</td>
+                        <td><span class="channel-tag">ICO Drops - ICO News & Alerts</span></td>
+                        <td><strong>**Aztec trading will start on Bybit, KuCoin, Gate, and others on February 12 at 7:00 UTC</strong></td>
+                        <td class="price">$119 USD</td>
+                        <td class="val-unknown">Unknown</td>
+                        <td style="font-size: 0.9em;">The provided price of $119 USD appears to be the fundraising amount, not the trading price of Aztec, making it unclear for valuation purposes.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:12</td>
+                        <td><span class="channel-tag">ICO Drops - ICO News & Alerts</span></td>
+                        <td><strong>eSui Dollar (suiUSDe), the synthetic dollar issued in collaboration with Ethena Labs, is now live on</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:12</td>
+                        <td><span class="channel-tag">ICO Drops - ICO News & Alerts</span></td>
+                        <td><strong>📈 **Elon Musk’s Net Worth vs Total Altcoins M.Cap**</strong></td>
+                        <td class="price">$261 USD</td>
+                        <td class="val-bad">Overpriced</td>
+                        <td style="font-size: 0.9em;">The price of $261 USD appears to be arbitrarily set to match Larry Page's net worth, lacking a clear connection to the actual value of the information or service provided.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:09</td>
+                        <td><span class="channel-tag">ICO Drops - ICO News & Alerts</span></td>
+                        <td><strong>Coinbase has introduced Agentic Wallets, the wallet infrastructure built specifically for autonomous</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:09</td>
+                        <td><span class="channel-tag">ICO Drops - ICO News & Alerts</span></td>
+                        <td><strong>Top 100 gainers in 24 h: PIPPIN, ASTER, VET, STX, STABLE, BONK, PENGU, ZEC, DOT, ATOM, TRUMP</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:09</td>
+                        <td><span class="channel-tag">ICO Drops - ICO News & Alerts</span></td>
+                        <td><strong>**Aztec trading has started on Bybit, KuCoin, and others</strong></td>
+                        <td class="price">~$0.02 (0.44x of the auction clearing price) FDV: ~$213M USD</td>
+                        <td class="val-good">Good Deal</td>
+                        <td style="font-size: 0.9em;">The current price of $0.02 is significantly lower than the auction clearing price, indicating a potential undervaluation.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:08</td>
+                        <td><span class="channel-tag">ICO Drops - ICO News & Alerts</span></td>
+                        <td><strong>Aster Chain mainnet is launching in March</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:08</td>
+                        <td><span class="channel-tag">ICO Drops - ICO News & Alerts</span></td>
+                        <td><strong>Binance SAFU Acquires 4,545 BTC ($304.58M), Completes $1B Bitcoin Purchase Plan</strong></td>
+                        <td class="price">4,545 BTC BTC</td>
+                        <td class="val-fair">Fair</td>
+                        <td style="font-size: 0.9em;">The price reflects the current market value of Bitcoin, with the total value of 4,545 BTC approximating $304.58M, which is a reasonable market valuation.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:08</td>
+                        <td><span class="channel-tag">ICO Drops - ICO News & Alerts</span></td>
+                        <td><strong>**Upbit to Delist Flow on March 16</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:08</td>
+                        <td><span class="channel-tag">ICO Drops - ICO News & Alerts</span></td>
+                        <td><strong>ARK Invest Acquires ~$50 Million in Shares of Robinhood, Bullish, and Circle</strong></td>
+                        <td class="price">$50 USD</td>
+                        <td class="val-bad">Overpriced</td>
+                        <td style="font-size: 0.9em;">The price of $50 USD is extremely low compared to the actual value of $50 million in shares, indicating a likely scam or misinformation.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:07</td>
+                        <td><span class="channel-tag">ICO Drops - ICO News & Alerts</span></td>
+                        <td><strong>Paolo Ardoino: “Testing Tether's QVAC AI Assistant</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:07</td>
+                        <td><span class="channel-tag">ICO Drops - ICO News & Alerts</span></td>
+                        <td><strong>Trump-linked World Liberty Financial plans to launch a foreign exchange and remittance platform call</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:07</td>
+                        <td><span class="channel-tag">ICO Drops - ICO News & Alerts</span></td>
+                        <td><strong>Lighter partners with Circle to share revenue generated on $920M of USDC deposited on platform</strong></td>
+                        <td class="price">jumps-lighter-920-million-circle/ Unknown</td>
+                        <td class="val-unknown">Unknown</td>
+                        <td style="font-size: 0.9em;">The listing lacks a specific price to evaluate, making it impossible to determine its value.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:06</td>
+                        <td><span class="channel-tag">ICO Drops - ICO News & Alerts</span></td>
+                        <td><strong>The crypto market is down</strong></td>
+                        <td class="price">$2.29 USD</td>
+                        <td class="val-fair">Fair</td>
+                        <td style="font-size: 0.9em;">The price of $2.29T represents the total market capitalization of the crypto market, which is a general market metric rather than a specific item for sale, so it's a reflection of the current fair market value.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:05</td>
+                        <td><span class="channel-tag">ICO Drops - ICO News & Alerts</span></td>
+                        <td><strong>**Coinbase Reports Q4 & Full-Year 2025 Results</strong></td>
+                        <td class="price">$1.8 USD</td>
+                        <td class="val-unknown">Unknown</td>
+                        <td style="font-size: 0.9em;">The listed price of $1.8 USD appears to be unrelated to the context provided, which discusses Coinbase's revenue.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:05</td>
+                        <td><span class="channel-tag">ICO Drops - ICO News & Alerts</span></td>
+                        <td><strong>Aave Labs has submitted a governance proposal to allocate all of Aave-branded product revenue to the</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:05</td>
+                        <td><span class="channel-tag">ICO Drops - ICO News & Alerts</span></td>
+                        <td><strong>CFTC announced the members of its newly formed Innovation Advisory Committee (IAC)</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:05</td>
+                        <td><span class="channel-tag">ICO Drops - ICO News & Alerts</span></td>
+                        <td><strong>📈 **Highest FDV Coins Launched Year-to-Date**</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:05</td>
+                        <td><span class="channel-tag">ICO Drops - ICO News & Alerts</span></td>
+                        <td><strong>The crypto market is growing</strong></td>
+                        <td class="price">$2.37 USD</td>
+                        <td class="val-fair">Fair</td>
+                        <td style="font-size: 0.9em;">The price of $2.37T is the total market capitalization of the crypto market, which is a general market metric rather than a specific item for sale, so it's a reflection of the current market value.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:04</td>
+                        <td><span class="channel-tag">ICO Drops - ICO News & Alerts</span></td>
+                        <td><strong>Tomasz Stańczak is stepping down from his co-ED role at the EF at the end of February 2026. Bastian </strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:04</td>
+                        <td><span class="channel-tag">ICO Drops - ICO News & Alerts</span></td>
+                        <td><strong>The crypto market is down</strong></td>
+                        <td class="price">$2.36 USD</td>
+                        <td class="val-fair">Fair</td>
+                        <td style="font-size: 0.9em;">The price of $2.36T reflects the current total market capitalization of cryptocurrencies, which is a standard market metric.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:03</td>
+                        <td><span class="channel-tag">ICO Drops - ICO News & Alerts</span></td>
+                        <td><strong>X is launching a number of features in a couple weeks, including Smart Cashtags that will enable you</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:03</td>
+                        <td><span class="channel-tag">ICO Drops - ICO News & Alerts</span></td>
+                        <td><strong>Michael Saylor's 'Strategy' says it can "withstand a drawdown in Bitcoin's price to $8K and still ha</strong></td>
+                        <td class="price">to $8K and still have sufficient assets to fully cover its debt." USD</td>
+                        <td class="val-unknown">Unknown</td>
+                        <td style="font-size: 0.9em;">The provided text does not contain a sales listing with a specific item and price to evaluate, but rather a statement about Michael Saylor's strategy.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:03</td>
+                        <td><span class="channel-tag">ICO Drops - ICO News & Alerts</span></td>
+                        <td><strong>📈 **Top 10 Gainers In The Last Week**</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:03</td>
+                        <td><span class="channel-tag">ICO Drops - ICO News & Alerts</span></td>
+                        <td><strong>DeFiLlama founder: “Was curious if this was true and looks like it</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:03</td>
+                        <td><span class="channel-tag">ICO Drops - ICO News & Alerts</span></td>
+                        <td><strong>**Morpho Association Announces Cooperation Agreement with Apollo</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:03</td>
+                        <td><span class="channel-tag">ICO Drops - ICO News & Alerts</span></td>
+                        <td><strong>👀 **Major Token Unlocks Coming Next Week**</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:03</td>
+                        <td><span class="channel-tag">ICO Drops - ICO News & Alerts</span></td>
+                        <td><strong>📈 **World’s Largest Assets: Performance Over the Last 3 Months**</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:03</td>
+                        <td><span class="channel-tag">ICO Drops - ICO News & Alerts</span></td>
+                        <td><strong>Binance denies report on Iran-linked sanctions breaches and investigator firings**</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:03</td>
+                        <td><span class="channel-tag">ICO Drops - ICO News & Alerts</span></td>
+                        <td><strong>Nexo has reentered the U.S. market, rolling out a suite of digital asset services and trading infras</strong></td>
+                        <td class="price">$11 USD</td>
+                        <td class="val-unknown">Unknown</td>
+                        <td style="font-size: 0.9em;">The provided price of $11 USD appears to be unrelated to the context, which discusses Nexo's reentry into the U.S. market and its assets under management, but does not mention a specific product or service being sold for that price.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:02</td>
+                        <td><span class="channel-tag">ICO Drops - ICO News & Alerts</span></td>
+                        <td><strong>The crypto market is neutral</strong></td>
+                        <td class="price">$2.37 USD</td>
+                        <td class="val-fair">Fair</td>
+                        <td style="font-size: 0.9em;">The price of $2.37T for the total crypto market cap is consistent with general market knowledge and recent trends.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:01</td>
+                        <td><span class="channel-tag">ICO Drops - ICO News & Alerts</span></td>
+                        <td><strong>**Flying Tulip Public Sale Goes Live</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:01</td>
+                        <td><span class="channel-tag">ICO Drops - ICO News & Alerts</span></td>
+                        <td><strong>OpenSea will make announcements on March 30</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:01</td>
+                        <td><span class="channel-tag">Whales Crypto Guide</span></td>
+                        <td><strong>#RIVER Short Signal has achieved our All Targets😎🔥</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:01</td>
+                        <td><span class="channel-tag">Whales Crypto Guide</span></td>
+                        <td><strong>Boom🥂</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:01</td>
+                        <td><span class="channel-tag">Whales Crypto Guide</span></td>
+                        <td><strong>**Shorting ****#PENGU**** here**</strong></td>
+                        <td class="price">$0.011430 USD</td>
+                        <td class="val-fair">Fair</td>
+                        <td style="font-size: 0.9em;">The price appears to be based on a technical analysis of the chart, suggesting a fair market value for a short-term trade.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:00</td>
+                        <td><span class="channel-tag">Whales Crypto Guide</span></td>
+                        <td><strong>JUST IN: Michael Saylor posts the Saylor #Bitcoin tracker again, hinting at buying more BTC 🚀</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:00</td>
+                        <td><span class="channel-tag">Whales Crypto Guide</span></td>
+                        <td><strong>**#1000RATS**** Long Signal has achieved our 1st,2nd,3rd Target.✅✅✅</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:48:00</td>
+                        <td><span class="channel-tag">Whales Crypto Guide</span></td>
+                        <td><strong>**Shorting ****#TURBO**** here**</strong></td>
+                        <td class="price">$0.0016070 USD</td>
+                        <td class="val-unknown">Unknown</td>
+                        <td style="font-size: 0.9em;">The price valuation cannot be determined without knowing the current market price and trends of #TURBO, but the listing suggests a shorting opportunity based on a bearish chart analysis.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:47:59</td>
+                        <td><span class="channel-tag">Whales Crypto Guide</span></td>
+                        <td><strong>JUST IN: 🇱🇦 Tether partners with local exchange to promote Bitcoin and stablecoin adoption in Laos</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:47:59</td>
+                        <td><span class="channel-tag">Whales Crypto Guide</span></td>
+                        <td><strong>**#PENGU**** Short Signal has achieved our All Targets.✅✅✅✅✅**</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:47:59</td>
+                        <td><span class="channel-tag">Whales Crypto Guide</span></td>
+                        <td><strong>BREAKING: 🇺🇸 STRATEGY BUYS ANOTHER 22,305 #BITCOIN FOR $2.1B</strong></td>
+                        <td class="price">$2.1 USD</td>
+                        <td class="val-bad">Overpriced</td>
+                        <td style="font-size: 0.9em;">The price of $2.1B for 22,305 Bitcoin implies a price per Bitcoin of around $94,000, which is significantly higher than the current market price.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:47:59</td>
+                        <td><span class="channel-tag">Whales Crypto Guide</span></td>
+                        <td><strong>**Shorting ****#ACX**** here**</strong></td>
+                        <td class="price">$0.04880 USD</td>
+                        <td class="val-fair">Fair</td>
+                        <td style="font-size: 0.9em;">The price of $0.04880 USD appears to be a fair market value as it is based on a technical analysis of the chart, which indicates a bearish trend.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:47:58</td>
+                        <td><span class="channel-tag">Whales Crypto Guide</span></td>
+                        <td><strong>$135 MILLION Bitcoin and crypto longs liquidated in the past 60 minutes as BTC falls below $90,000📉</strong></td>
+                        <td class="price">$135 USD</td>
+                        <td class="val-bad">Overpriced</td>
+                        <td style="font-size: 0.9em;">The price of $135 USD is extremely low compared to the stated value of $135 million in Bitcoin and crypto longs liquidated.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:47:57</td>
+                        <td><span class="channel-tag">Whales Crypto Guide</span></td>
+                        <td><strong>**#TURBO**** Short Signal has achieved our 1st Target.✅**</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:47:57</td>
+                        <td><span class="channel-tag">Whales Crypto Guide</span></td>
+                        <td><strong>🐋 WHALE ALERT:  A Satoshi-era wallet holding 909 $BTC worth $84.6M just woke up after 13.2 years.</strong></td>
+                        <td class="price">$84.6 USD</td>
+                        <td class="val-bad">Overpriced</td>
+                        <td style="font-size: 0.9em;">The listed price of $84.6 USD is significantly lower than the stated value of $84.6M, indicating a likely error or misleading listing.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:47:56</td>
+                        <td><span class="channel-tag">Whales Crypto Guide</span></td>
+                        <td><strong>**Shorting ****#ICNT**** Here**</strong></td>
+                        <td class="price">$0.3750 USD</td>
+                        <td class="val-unknown">Unknown</td>
+                        <td style="font-size: 0.9em;">The valuation cannot be determined without knowing the current market price of #ICNT, but the listing appears to be a trading signal rather than a sales listing.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:47:55</td>
+                        <td><span class="channel-tag">Whales Crypto Guide</span></td>
+                        <td><strong>**Shorting ****#CHZ**** Here**</strong></td>
+                        <td class="price">$0.05187 USD</td>
+                        <td class="val-fair">Fair</td>
+                        <td style="font-size: 0.9em;">The price of $0.05187 USD for CHZ appears to be a fair market value as it is being presented as a shorting opportunity with a specific entry range, suggesting it is near current market levels.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:47:55</td>
+                        <td><span class="channel-tag">Whales Crypto Guide</span></td>
+                        <td><strong>#ICNT Short Signal has achieved our 1st Target✅</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:47:55</td>
+                        <td><span class="channel-tag">Whales Crypto Guide</span></td>
+                        <td><strong>#ICNT Short Signal has achieved our 2nd Target✅✅</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:47:55</td>
+                        <td><span class="channel-tag">Whales Crypto Guide</span></td>
+                        <td><strong>#CHZ Short Signal has achieved our 1st Target✅</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:47:55</td>
+                        <td><span class="channel-tag">Whales Crypto Guide</span></td>
+                        <td><strong>**Shorting ****#RONIN**** here**</strong></td>
+                        <td class="price">$0.1390 USD</td>
+                        <td class="val-fair">Fair</td>
+                        <td style="font-size: 0.9em;">The price of $0.1390 USD appears to be a fair market value as it is based on a technical analysis of the chart and market trends, rather than an obvious under or overvaluation.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:47:54</td>
+                        <td><span class="channel-tag">Whales Crypto Guide</span></td>
+                        <td><strong>Ethereum leads onchain lending with around $28B in active loans, per Token Terminal.</strong></td>
+                        <td class="price">$28 USD</td>
+                        <td class="val-bad">Overpriced</td>
+                        <td style="font-size: 0.9em;">The price of $28 USD for Ethereum is significantly lower than its current market value, indicating a likely error or misinformation in the listing.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:47:53</td>
+                        <td><span class="channel-tag">Whales Crypto Guide</span></td>
+                        <td><strong>**#ACX**** All Entries Filled Short Signal has achieved our 1st,2nd Target.✅✅**</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:47:53</td>
+                        <td><span class="channel-tag">Whales Crypto Guide</span></td>
+                        <td><strong>**#TURBO**** Short Signal has achieved our 2nd,3rd Target.✅✅✅</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:47:53</td>
+                        <td><span class="channel-tag">Whales Crypto Guide</span></td>
+                        <td><strong>Despite banning crypto, China is only 4,012 $BTC away from flipping the USA as the government with t</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:47:53</td>
+                        <td><span class="channel-tag">Whales Crypto Guide</span></td>
+                        <td><strong>**Shorting ****#PHA**** here**</strong></td>
+                        <td class="price">$0.03770 USD</td>
+                        <td class="val-fair">Fair</td>
+                        <td style="font-size: 0.9em;">The price appears to be a short-term trading entry point based on technical analysis, rather than a valuation of the asset's intrinsic worth.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:47:52</td>
+                        <td><span class="channel-tag">Whales Crypto Guide</span></td>
+                        <td><strong>JUST IN: The Bitcoin Fear & Greed Index is now at "Extreme Fear" 👀</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                    <tr>
+                        <td style="font-size: 0.9em; color: #7f8c8d;">2026-02-17T11:47:52</td>
+                        <td><span class="channel-tag">Whales Crypto Guide</span></td>
+                        <td><strong>**#RONIN**** Short Signal has achieved our 1st Target.✅</strong></td>
+                        <td class="price">nan Unknown</td>
+                        <td class="val-unknown">nan</td>
+                        <td style="font-size: 0.9em;">No price found.</td>
+                    </tr>
+            
+                </tbody>
+            </table>
+            <div class="refresh-note">
+                Dashboard auto-refreshes every 10 seconds. Keep the python script running.
+            </div>
+        </body>
+        </html>
+        

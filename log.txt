@@ -1,0 +1,336 @@
+
+D:\projects\telegram_monitor_ai\telegram_monitor_mvp>python -m src.monitor
+Starting Telegram Monitor...
+Please enter your phone (or bot token): +6285607600007
+Please enter the code you received: 79947
+Signed in successfully as vxtrcy?; remember to not break the ToS or you will risk an account ban!
+
+--- Starting Backfill (50 messages per channel) ---
+Backfilling from: @Whalesguide...
+[Exporter] Saved item: **#STRK**** long Signal has achieved our 2nd Target.✅✅**
+[Whales Crypto Guide] Saved: **#STRK**** long Signal has achieved our 2nd Target.✅✅**
+[Exporter] Saved item: **#STRK**** long Signal has achieved our 1st Target.✅**
+[Whales Crypto Guide] Saved: **#STRK**** long Signal has achieved our 1st Target.✅**
+[Exporter] Saved item: The Coinbase Premium Index is experiencing a significant upward trend.
+[Whales Crypto Guide] Saved: The Coinbase Premium Index is experiencing a significant upward trend.
+   -> Analyzing with Groq AI: **Longing ****#ETHFI**** Here** @ $0.4820
+[Exporter] Saved item: **Longing ****#ETHFI**** Here**
+[Whales Crypto Guide] Saved: **Longing ****#ETHFI**** Here**
+   -> Analyzing with Groq AI: Longing **#STRK**** Here** @ $0.04957
+[Exporter] Saved item: Longing **#STRK**** Here**
+[Whales Crypto Guide] Saved: Longing **#STRK**** Here**
+[Exporter] Saved item: Ethereum’s staking ratio surpasses 30%, setting a new all-time high, per Token Terminal.
+[Whales Crypto Guide] Saved: Ethereum’s staking ratio surpasses 30%, setting a new all-time high, per Token Terminal.
+[Exporter] Saved item: **#ZEN**** Short Signal has achieved our 1st Target.✅**
+[Whales Crypto Guide] Saved: **#ZEN**** Short Signal has achieved our 1st Target.✅**
+[Exporter] Saved item: 🇺🇸 White House gathering with crypto industry and banks was “productive,” but no compromise was reac
+[Whales Crypto Guide] Saved: 🇺🇸 White House gathering with crypto industry and banks was “productive,” but no compromise was reac
+   -> Analyzing with Groq AI: **Shorting ****#DRIFT**** here** @ $0.0778
+[Exporter] Saved item: **Shorting ****#DRIFT**** here**
+[Whales Crypto Guide] Saved: **Shorting ****#DRIFT**** here**
+[Exporter] Saved item: **#PHA**** Short Signal has achieved our 1st Target.✅**
+[Whales Crypto Guide] Saved: **#PHA**** Short Signal has achieved our 1st Target.✅**
+[Exporter] Saved item: Crypto Fear and Greed Index doubles to 14 from yesterday's 7, but remains stuck in "Extreme Fear" te
+[Whales Crypto Guide] Saved: Crypto Fear and Greed Index doubles to 14 from yesterday's 7, but remains stuck in "Extreme Fear" te
+[Exporter] Saved item: **#XRP**** Short Signal has achieved our All Targets.✅✅✅✅**
+[Whales Crypto Guide] Saved: **#XRP**** Short Signal has achieved our All Targets.✅✅✅✅**
+[Exporter] Saved item: JUST IN: Binance adds another 4,225 Bitcoin to its SAFU fund. Now holds 10,455 $BTC in total.
+[Whales Crypto Guide] Saved: JUST IN: Binance adds another 4,225 Bitcoin to its SAFU fund. Now holds 10,455 $BTC in total.
+   -> Analyzing with Groq AI: **Shorting ****#ZEN**** here** @ $5.870
+[Exporter] Saved item: **Shorting ****#ZEN**** here**
+[Whales Crypto Guide] Saved: **Shorting ****#ZEN**** here**
+[Exporter] Saved item: **#TURBO**** Short Signal has achieved our All Targets.✅✅✅✅✅✅**
+[Whales Crypto Guide] Saved: **#TURBO**** Short Signal has achieved our All Targets.✅✅✅✅✅✅**
+[Exporter] Saved item: Switzerland's largest bank UBS is considering offering cryptocurrencies to individual clients.
+[Whales Crypto Guide] Saved: Switzerland's largest bank UBS is considering offering cryptocurrencies to individual clients.
+[Exporter] Saved item: **#PHA**** Short Signal has achieved our 1st Target.✅**
+[Whales Crypto Guide] Saved: **#PHA**** Short Signal has achieved our 1st Target.✅**
+   -> Analyzing with Groq AI: Fidelity’s USD-pegged stablecoin FIDD is now live, with 1:1 USD minting for retail and institutional @ 1 USD
+[Exporter] Saved item: Fidelity’s USD-pegged stablecoin FIDD is now live, with 1:1 USD minting for retail and institutional
+[Whales Crypto Guide] Saved: Fidelity’s USD-pegged stablecoin FIDD is now live, with 1:1 USD minting for retail and institutional
+   -> Analyzing with Groq AI: **Shorting ****#XRP**** here** @ $1.5370
+[Exporter] Saved item: **Shorting ****#XRP**** here**
+[Whales Crypto Guide] Saved: **Shorting ****#XRP**** here**
+   -> Analyzing with Groq AI: **Shorting ****#ICNT**** Here** @ $0.3607
+[Exporter] Saved item: **Shorting ****#ICNT**** Here**
+[Whales Crypto Guide] Saved: **Shorting ****#ICNT**** Here**
+[Exporter] Saved item: JUST IN: 🇺🇸 S&P 500 closes at new all-time high of 6,978🔥
+[Whales Crypto Guide] Saved: JUST IN: 🇺🇸 S&P 500 closes at new all-time high of 6,978🔥
+[Exporter] Saved item: **#TURBO**** Short Signal has achieved our 4th Target.✅✅✅✅**
+[Whales Crypto Guide] Saved: **#TURBO**** Short Signal has achieved our 4th Target.✅✅✅✅**
+[Exporter] Saved item: JUST IN: Steak n Shake says its store sales are up an unbelievable 18%.
+[Whales Crypto Guide] Saved: JUST IN: Steak n Shake says its store sales are up an unbelievable 18%.
+[Exporter] Saved item: **#RONIN**** Short Signal has achieved our 1st Target.✅
+[Whales Crypto Guide] Saved: **#RONIN**** Short Signal has achieved our 1st Target.✅
+[Exporter] Saved item: JUST IN: The Bitcoin Fear & Greed Index is now at "Extreme Fear" 👀
+[Whales Crypto Guide] Saved: JUST IN: The Bitcoin Fear & Greed Index is now at "Extreme Fear" 👀
+   -> Analyzing with Groq AI: **Shorting ****#PHA**** here** @ $0.03770
+[Exporter] Saved item: **Shorting ****#PHA**** here**
+[Whales Crypto Guide] Saved: **Shorting ****#PHA**** here**
+[Exporter] Saved item: Despite banning crypto, China is only 4,012 $BTC away from flipping the USA as the government with t
+[Whales Crypto Guide] Saved: Despite banning crypto, China is only 4,012 $BTC away from flipping the USA as the government with t
+[Exporter] Saved item: **#TURBO**** Short Signal has achieved our 2nd,3rd Target.✅✅✅
+[Whales Crypto Guide] Saved: **#TURBO**** Short Signal has achieved our 2nd,3rd Target.✅✅✅
+[Exporter] Saved item: **#ACX**** All Entries Filled Short Signal has achieved our 1st,2nd Target.✅✅**
+[Whales Crypto Guide] Saved: **#ACX**** All Entries Filled Short Signal has achieved our 1st,2nd Target.✅✅**
+   -> Analyzing with Groq AI: Ethereum leads onchain lending with around $28B in active loans, per Token Terminal. @ $28
+[Exporter] Saved item: Ethereum leads onchain lending with around $28B in active loans, per Token Terminal.
+[Whales Crypto Guide] Saved: Ethereum leads onchain lending with around $28B in active loans, per Token Terminal.
+   -> Analyzing with Groq AI: **Shorting ****#RONIN**** here** @ $0.1390
+[Exporter] Saved item: **Shorting ****#RONIN**** here**
+[Whales Crypto Guide] Saved: **Shorting ****#RONIN**** here**
+[Exporter] Saved item: #CHZ Short Signal has achieved our 1st Target✅
+[Whales Crypto Guide] Saved: #CHZ Short Signal has achieved our 1st Target✅
+[Exporter] Saved item: #ICNT Short Signal has achieved our 2nd Target✅✅
+[Whales Crypto Guide] Saved: #ICNT Short Signal has achieved our 2nd Target✅✅
+[Exporter] Saved item: #ICNT Short Signal has achieved our 1st Target✅
+[Whales Crypto Guide] Saved: #ICNT Short Signal has achieved our 1st Target✅
+   -> Analyzing with Groq AI: **Shorting ****#CHZ**** Here** @ $0.05187
+[Exporter] Saved item: **Shorting ****#CHZ**** Here**
+[Whales Crypto Guide] Saved: **Shorting ****#CHZ**** Here**
+   -> Analyzing with Groq AI: **Shorting ****#ICNT**** Here** @ $0.3750
+[Exporter] Saved item: **Shorting ****#ICNT**** Here**
+[Whales Crypto Guide] Saved: **Shorting ****#ICNT**** Here**
+   -> Analyzing with Groq AI: 🐋 WHALE ALERT:  A Satoshi-era wallet holding 909 $BTC worth $84.6M just woke up after 13.2 years. @ $84.6
+[Exporter] Saved item: 🐋 WHALE ALERT:  A Satoshi-era wallet holding 909 $BTC worth $84.6M just woke up after 13.2 years.
+[Whales Crypto Guide] Saved: 🐋 WHALE ALERT:  A Satoshi-era wallet holding 909 $BTC worth $84.6M just woke up after 13.2 years.
+[Exporter] Saved item: **#TURBO**** Short Signal has achieved our 1st Target.✅**
+[Whales Crypto Guide] Saved: **#TURBO**** Short Signal has achieved our 1st Target.✅**
+   -> Analyzing with Groq AI: $135 MILLION Bitcoin and crypto longs liquidated in the past 60 minutes as BTC falls below $90,000📉 @ $135
+[Exporter] Saved item: $135 MILLION Bitcoin and crypto longs liquidated in the past 60 minutes as BTC falls below $90,000📉
+[Whales Crypto Guide] Saved: $135 MILLION Bitcoin and crypto longs liquidated in the past 60 minutes as BTC falls below $90,000📉
+   -> Analyzing with Groq AI: **Shorting ****#ACX**** here** @ $0.04880
+[Exporter] Saved item: **Shorting ****#ACX**** here**
+[Whales Crypto Guide] Saved: **Shorting ****#ACX**** here**
+   -> Analyzing with Groq AI: BREAKING: 🇺🇸 STRATEGY BUYS ANOTHER 22,305 #BITCOIN FOR $2.1B @ $2.1
+[Exporter] Saved item: BREAKING: 🇺🇸 STRATEGY BUYS ANOTHER 22,305 #BITCOIN FOR $2.1B
+[Whales Crypto Guide] Saved: BREAKING: 🇺🇸 STRATEGY BUYS ANOTHER 22,305 #BITCOIN FOR $2.1B
+[Exporter] Saved item: **#PENGU**** Short Signal has achieved our All Targets.✅✅✅✅✅**
+[Whales Crypto Guide] Saved: **#PENGU**** Short Signal has achieved our All Targets.✅✅✅✅✅**
+[Exporter] Saved item: JUST IN: 🇱🇦 Tether partners with local exchange to promote Bitcoin and stablecoin adoption in Laos
+[Whales Crypto Guide] Saved: JUST IN: 🇱🇦 Tether partners with local exchange to promote Bitcoin and stablecoin adoption in Laos
+   -> Analyzing with Groq AI: **Shorting ****#TURBO**** here** @ $0.0016070
+[Exporter] Saved item: **Shorting ****#TURBO**** here**
+[Whales Crypto Guide] Saved: **Shorting ****#TURBO**** here**
+[Exporter] Saved item: **#1000RATS**** Long Signal has achieved our 1st,2nd,3rd Target.✅✅✅
+[Whales Crypto Guide] Saved: **#1000RATS**** Long Signal has achieved our 1st,2nd,3rd Target.✅✅✅
+[Exporter] Saved item: JUST IN: Michael Saylor posts the Saylor #Bitcoin tracker again, hinting at buying more BTC 🚀
+[Whales Crypto Guide] Saved: JUST IN: Michael Saylor posts the Saylor #Bitcoin tracker again, hinting at buying more BTC 🚀
+   -> Analyzing with Groq AI: **Shorting ****#PENGU**** here** @ $0.011430
+[Exporter] Saved item: **Shorting ****#PENGU**** here**
+[Whales Crypto Guide] Saved: **Shorting ****#PENGU**** here**
+[Exporter] Saved item: Boom🥂
+[Whales Crypto Guide] Saved: Boom🥂
+[Exporter] Saved item: #RIVER Short Signal has achieved our All Targets😎🔥
+[Whales Crypto Guide] Saved: #RIVER Short Signal has achieved our All Targets😎🔥
+[Exporter] Saved item: Last night signal🕊️vip members printing hard🔥contact admin for joining✅❤️
+[Whales Crypto Guide] Saved: Last night signal🕊️vip members printing hard🔥contact admin for joining✅❤️
+Backfilling from: @icodrops...
+[Exporter] Saved item: 📈 **Top 10 Gainers In The Last Week**
+[ICO Drops - ICO News & Alerts] Saved: 📈 **Top 10 Gainers In The Last Week**
+   -> Analyzing with Groq AI: Michael Saylor's 'Strategy' says it can "withstand a drawdown in Bitcoin's price to $8K and still ha @ to $8K and still have sufficient assets to fully cover its debt."
+[Exporter] Saved item: Michael Saylor's 'Strategy' says it can "withstand a drawdown in Bitcoin's price to $8K and still ha
+[ICO Drops - ICO News & Alerts] Saved: Michael Saylor's 'Strategy' says it can "withstand a drawdown in Bitcoin's price to $8K and still ha
+[Exporter] Saved item: X is launching a number of features in a couple weeks, including Smart Cashtags that will enable you
+[ICO Drops - ICO News & Alerts] Saved: X is launching a number of features in a couple weeks, including Smart Cashtags that will enable you
+   -> Analyzing with Groq AI: The crypto market is down @ $2.36
+[Exporter] Saved item: The crypto market is down
+[ICO Drops - ICO News & Alerts] Saved: The crypto market is down
+[Exporter] Saved item: Tomasz Stańczak is stepping down from his co-ED role at the EF at the end of February 2026. Bastian
+[ICO Drops - ICO News & Alerts] Saved: Tomasz Stańczak is stepping down from his co-ED role at the EF at the end of February 2026. Bastian
+   -> Analyzing with Groq AI: The crypto market is growing @ $2.37
+[Exporter] Saved item: The crypto market is growing
+[ICO Drops - ICO News & Alerts] Saved: The crypto market is growing
+[Exporter] Saved item: 📈 **Highest FDV Coins Launched Year-to-Date**
+[ICO Drops - ICO News & Alerts] Saved: 📈 **Highest FDV Coins Launched Year-to-Date**
+[Exporter] Saved item: CFTC announced the members of its newly formed Innovation Advisory Committee (IAC)
+[ICO Drops - ICO News & Alerts] Saved: CFTC announced the members of its newly formed Innovation Advisory Committee (IAC)
+[Exporter] Saved item: Aave Labs has submitted a governance proposal to allocate all of Aave-branded product revenue to the
+[ICO Drops - ICO News & Alerts] Saved: Aave Labs has submitted a governance proposal to allocate all of Aave-branded product revenue to the
+   -> Analyzing with Groq AI: **Coinbase Reports Q4 & Full-Year 2025 Results @ $1.8
+[Exporter] Saved item: **Coinbase Reports Q4 & Full-Year 2025 Results
+[ICO Drops - ICO News & Alerts] Saved: **Coinbase Reports Q4 & Full-Year 2025 Results
+   -> Analyzing with Groq AI: The crypto market is down @ $2.29
+[Exporter] Saved item: The crypto market is down
+[ICO Drops - ICO News & Alerts] Saved: The crypto market is down
+   -> Analyzing with Groq AI: Lighter partners with Circle to share revenue generated on $920M of USDC deposited on platform @ jumps-lighter-920-million-circle/
+[Exporter] Saved item: Lighter partners with Circle to share revenue generated on $920M of USDC deposited on platform
+[ICO Drops - ICO News & Alerts] Saved: Lighter partners with Circle to share revenue generated on $920M of USDC deposited on platform
+[Exporter] Saved item: Trump-linked World Liberty Financial plans to launch a foreign exchange and remittance platform call
+[ICO Drops - ICO News & Alerts] Saved: Trump-linked World Liberty Financial plans to launch a foreign exchange and remittance platform call
+[Exporter] Saved item: Paolo Ardoino: “Testing Tether's QVAC AI Assistant
+[ICO Drops - ICO News & Alerts] Saved: Paolo Ardoino: “Testing Tether's QVAC AI Assistant
+   -> Analyzing with Groq AI: ARK Invest Acquires ~$50 Million in Shares of Robinhood, Bullish, and Circle @ $50
+[Exporter] Saved item: ARK Invest Acquires ~$50 Million in Shares of Robinhood, Bullish, and Circle
+[ICO Drops - ICO News & Alerts] Saved: ARK Invest Acquires ~$50 Million in Shares of Robinhood, Bullish, and Circle
+[Exporter] Saved item: **Upbit to Delist Flow on March 16
+[ICO Drops - ICO News & Alerts] Saved: **Upbit to Delist Flow on March 16
+   -> Analyzing with Groq AI: Binance SAFU Acquires 4,545 BTC ($304.58M), Completes $1B Bitcoin Purchase Plan @ 4,545 BTC
+[Exporter] Saved item: Binance SAFU Acquires 4,545 BTC ($304.58M), Completes $1B Bitcoin Purchase Plan
+[ICO Drops - ICO News & Alerts] Saved: Binance SAFU Acquires 4,545 BTC ($304.58M), Completes $1B Bitcoin Purchase Plan
+[Exporter] Saved item: Aster Chain mainnet is launching in March
+[ICO Drops - ICO News & Alerts] Saved: Aster Chain mainnet is launching in March
+   -> Analyzing with Groq AI: **Aztec trading has started on Bybit, KuCoin, and others @ ~$0.02 (0.44x of the auction clearing price) FDV: ~$213M
+[Exporter] Saved item: **Aztec trading has started on Bybit, KuCoin, and others
+[ICO Drops - ICO News & Alerts] Saved: **Aztec trading has started on Bybit, KuCoin, and others
+[Exporter] Saved item: Top 100 gainers in 24 h: PIPPIN, ASTER, VET, STX, STABLE, BONK, PENGU, ZEC, DOT, ATOM, TRUMP
+[ICO Drops - ICO News & Alerts] Saved: Top 100 gainers in 24 h: PIPPIN, ASTER, VET, STX, STABLE, BONK, PENGU, ZEC, DOT, ATOM, TRUMP
+[Exporter] Saved item: Coinbase has introduced Agentic Wallets, the wallet infrastructure built specifically for autonomous
+[ICO Drops - ICO News & Alerts] Saved: Coinbase has introduced Agentic Wallets, the wallet infrastructure built specifically for autonomous
+   -> Analyzing with Groq AI: 📈 **Elon Musk’s Net Worth vs Total Altcoins M.Cap** @ $261
+[Exporter] Saved item: 📈 **Elon Musk’s Net Worth vs Total Altcoins M.Cap**
+[ICO Drops - ICO News & Alerts] Saved: 📈 **Elon Musk’s Net Worth vs Total Altcoins M.Cap**
+[Exporter] Saved item: eSui Dollar (suiUSDe), the synthetic dollar issued in collaboration with Ethena Labs, is now live on
+[ICO Drops - ICO News & Alerts] Saved: eSui Dollar (suiUSDe), the synthetic dollar issued in collaboration with Ethena Labs, is now live on
+   -> Analyzing with Groq AI: **Aztec trading will start on Bybit, KuCoin, Gate, and others on February 12 at 7:00 UTC @ $119
+[Exporter] Saved item: **Aztec trading will start on Bybit, KuCoin, Gate, and others on February 12 at 7:00 UTC
+[ICO Drops - ICO News & Alerts] Saved: **Aztec trading will start on Bybit, KuCoin, Gate, and others on February 12 at 7:00 UTC
+   -> Analyzing with Groq AI: **CoinList Announces the ****USD.AI**** Token Sale @ $0.03
+[Exporter] Saved item: **CoinList Announces the ****USD.AI**** Token Sale
+[ICO Drops - ICO News & Alerts] Saved: **CoinList Announces the ****USD.AI**** Token Sale
+   -> Analyzing with Groq AI: The crypto market is down @ $2.32
+[Exporter] Saved item: The crypto market is down
+[ICO Drops - ICO News & Alerts] Saved: The crypto market is down
+   -> Analyzing with Groq AI: Securitize has partnered with Uniswap to enable on-chain trading of (BUIDL) BlackRock’s USD Institut @ has increased by 40%.
+[Exporter] Saved item: Securitize has partnered with Uniswap to enable on-chain trading of (BUIDL) BlackRock’s USD Institut
+[ICO Drops - ICO News & Alerts] Saved: Securitize has partnered with Uniswap to enable on-chain trading of (BUIDL) BlackRock’s USD Institut
+[Exporter] Saved item: Franklin Templeton, Binance roll out program letting institutions use tokenized money funds as tradi
+[ICO Drops - ICO News & Alerts] Saved: Franklin Templeton, Binance roll out program letting institutions use tokenized money funds as tradi
+[Exporter] Saved item: Crypto's banker adversaries didn't want to deal in latest White House meeting on bill
+[ICO Drops - ICO News & Alerts] Saved: Crypto's banker adversaries didn't want to deal in latest White House meeting on bill
+[Exporter] Saved item: Stripe launches machine payments for AI agents using USDC on Base
+[ICO Drops - ICO News & Alerts] Saved: Stripe launches machine payments for AI agents using USDC on Base
+[Exporter] Saved item: Bitcoin and Ethereum are now available in TON Wallet
+[ICO Drops - ICO News & Alerts] Saved: Bitcoin and Ethereum are now available in TON Wallet
+[Exporter] Saved item: Binance Futures Launched USDⓈ-Margined AZTECUSDT Perpetual Contract Pre-Market Trading**
+[ICO Drops - ICO News & Alerts] Saved: Binance Futures Launched USDⓈ-Margined AZTECUSDT Perpetual Contract Pre-Market Trading**
+[Exporter] Saved item: **Robinhood Chain Launches Public Testnet
+[ICO Drops - ICO News & Alerts] Saved: **Robinhood Chain Launches Public Testnet
+   -> Analyzing with Groq AI: **Goldman Sachs Holds $2.36B in Crypto ETFs** @ $2.36
+[Exporter] Saved item: **Goldman Sachs Holds $2.36B in Crypto ETFs**
+[ICO Drops - ICO News & Alerts] Saved: **Goldman Sachs Holds $2.36B in Crypto ETFs**
+   -> Analyzing with Groq AI: **LayerZero introduced Zero, a new blockchain design using zero-knowledge proofs and a split validat @ increased by 40% following the announcement.**       
+[Exporter] Saved item: **LayerZero introduced Zero, a new blockchain design using zero-knowledge proofs and a split validat
+[ICO Drops - ICO News & Alerts] Saved: **LayerZero introduced Zero, a new blockchain design using zero-knowledge proofs and a split validat
+   -> Analyzing with Groq AI: JPMorgan cut its December 2026 price target on Coinbase to $290 from $399 ahead of fourth-quarter ea @ target on Coinbase to $290 from $399 ahead of fourth-quarter earnings, citing weaker crypto trading volumes, softer prices and slower USDC growth.
+[Exporter] Saved item: JPMorgan cut its December 2026 price target on Coinbase to $290 from $399 ahead of fourth-quarter ea
+[ICO Drops - ICO News & Alerts] Saved: JPMorgan cut its December 2026 price target on Coinbase to $290 from $399 ahead of fourth-quarter ea
+[Exporter] Saved item: Interactive Brokers announced the launch of Coinbase Derivatives, LLC nano Bitcoin and nano Ether fu
+[ICO Drops - ICO News & Alerts] Saved: Interactive Brokers announced the launch of Coinbase Derivatives, LLC nano Bitcoin and nano Ether fu
+   -> Analyzing with Groq AI: The crypto market is down @ $2.35
+[Exporter] Saved item: The crypto market is down
+[ICO Drops - ICO News & Alerts] Saved: The crypto market is down
+[Exporter] Saved item: **📈**** Top Perp DEXs by LP Vault APR Last Month**
+[ICO Drops - ICO News & Alerts] Saved: **📈**** Top Perp DEXs by LP Vault APR Last Month**
+[Exporter] Saved item: Tether Announces Strategic Investment in LayerZero Labs
+[ICO Drops - ICO News & Alerts] Saved: Tether Announces Strategic Investment in LayerZero Labs
+[Exporter] Saved item: Sam Bankman-Fried: “Agree with almost all of this.
+[ICO Drops - ICO News & Alerts] Saved: Sam Bankman-Fried: “Agree with almost all of this.
+[Exporter] Saved item: Chromia has introduced clawchain.ai: an on-chain agentic 'Reddit'-style platform with autonomous tra
+[ICO Drops - ICO News & Alerts] Saved: Chromia has introduced clawchain.ai: an on-chain agentic 'Reddit'-style platform with autonomous tra
+[Exporter] Saved item: XION launches an on-chain ZK email verification
+[ICO Drops - ICO News & Alerts] Saved: XION launches an on-chain ZK email verification
+   -> Analyzing with Groq AI: 🟪  **Ethereum Ecosystem: Price Performance Last Year** @ Performance Last Year**
+[Exporter] Saved item: 🟪  **Ethereum Ecosystem: Price Performance Last Year**
+[ICO Drops - ICO News & Alerts] Saved: 🟪  **Ethereum Ecosystem: Price Performance Last Year**
+   -> Analyzing with Groq AI: 3,500,000,000 USDT burned at Tether Treasury @ 3,500,000,000 USD
+[Exporter] Saved item: 3,500,000,000 USDT burned at Tether Treasury
+[ICO Drops - ICO News & Alerts] Saved: 3,500,000,000 USDT burned at Tether Treasury
+   -> Analyzing with Groq AI: **Hyperliquid is quietly outgrowing Coinbase** @ Performance:
+[Exporter] Saved item: **Hyperliquid is quietly outgrowing Coinbase**
+[ICO Drops - ICO News & Alerts] Saved: **Hyperliquid is quietly outgrowing Coinbase**
+[Exporter] Saved item: Binance holds about 87% of USD1
+[ICO Drops - ICO News & Alerts] Saved: Binance holds about 87% of USD1
+[Exporter] Saved item: **Vitalik Buterin outlines updated Ethereum-AI vision across four key areas**
+[ICO Drops - ICO News & Alerts] Saved: **Vitalik Buterin outlines updated Ethereum-AI vision across four key areas**
+   -> Analyzing with Groq AI: The crypto market is down @ $2.38
+[Exporter] Saved item: The crypto market is down
+[ICO Drops - ICO News & Alerts] Saved: The crypto market is down
+[Exporter] Saved item: Backpack has introduced its tokenomics
+[ICO Drops - ICO News & Alerts] Saved: Backpack has introduced its tokenomics
+Backfilling from: @WhaleAlert_Official_Signals...
+[Exporter] Saved item: **🌐 **#STORJ        #Crypto_Signal**
+[Whale Alert Signals] Saved: **🌐 **#STORJ        #Crypto_Signal**
+[Exporter] Saved item: 🌐 #STORJ        #Crypto_Signal
+[Whale Alert Signals] Saved: 🌐 #STORJ        #Crypto_Signal
+[Exporter] Saved item: **🌐 **#STORJ        #Crypto_Signal**
+[Whale Alert Signals] Saved: **🌐 **#STORJ        #Crypto_Signal**
+[Exporter] Saved item: 📍Coin : #STORJ/USDT
+[Whale Alert Signals] Saved: 📍Coin : #STORJ/USDT
+[Exporter] Saved item: **🌐 **#NEAR        #Crypto**
+[Whale Alert Signals] Saved: **🌐 **#NEAR        #Crypto**
+   -> Analyzing with Groq AI: #RENDER is consolidating near the **support zone** inside the **descending** **channel** pattern on  @ $12.00
+[Exporter] Saved item: #RENDER is consolidating near the **support zone** inside the **descending** **channel** pattern on 
+[Whale Alert Signals] Saved: #RENDER is consolidating near the **support zone** inside the **descending** **channel** pattern on 
+   -> Analyzing with Groq AI: #GRT @ $1.
+[Exporter] Saved item: #GRT
+[Whale Alert Signals] Saved: #GRT
+[Exporter] Saved item: 📍Coin : #NEAR/USDT
+[Whale Alert Signals] Saved: 📍Coin : #NEAR/USDT
+[Exporter] Saved item: **🌐 ****#COMP****        ****#Crypto_Signal****
+[Whale Alert Signals] Saved: **🌐 ****#COMP****        ****#Crypto_Signal****
+[Exporter] Saved item: **🌐 ****#COMP****        ****#Crypto_Signal****
+[Whale Alert Signals] Saved: **🌐 ****#COMP****        ****#Crypto_Signal****
+[Exporter] Saved item: **🌐 ****#COMP****        ****#Crypto_Signal****
+[Whale Alert Signals] Saved: **🌐 ****#COMP****        ****#Crypto_Signal****
+[Exporter] Saved item: 📍Coin : #COMP/USDT
+[Whale Alert Signals] Saved: 📍Coin : #COMP/USDT
+[Exporter] Saved item: Confirm receipt.
+[Whale Alert Signals] Saved: Confirm receipt.
+[Exporter] Saved item: Sent.
+[Whale Alert Signals] Saved: Sent.
+[Exporter] Saved item: Id do the 200 initially and after the 48hrs I'd invest more.
+[Whale Alert Signals] Saved: Id do the 200 initially and after the 48hrs I'd invest more.
+[Exporter] Saved item: The recover losses promo.
+[Whale Alert Signals] Saved: The recover losses promo.
+[Exporter] Saved item: Hello, I saw you just posted in the public telegram group this.
+[Whale Alert Signals] Saved: Hello, I saw you just posted in the public telegram group this.
+[Exporter] Saved item: Is this ok?
+[Whale Alert Signals] Saved: Is this ok?
+   -> Analyzing with Groq AI: 500USD @ 500USD
+[Exporter] Saved item: 500USD
+[Whale Alert Signals] Saved: 500USD
+[Exporter] Saved item: Hi, i want to try the recover loss method
+[Whale Alert Signals] Saved: Hi, i want to try the recover loss method
+   -> Analyzing with Groq AI: **SPECIAL OFFER.... Recover your loss. @ $200
+[Exporter] Saved item: **SPECIAL OFFER.... Recover your loss.
+[Whale Alert Signals] Saved: **SPECIAL OFFER.... Recover your loss.
+[Exporter] Saved item: **The opportunities you hesitate to pursue are often those from which others are currently profiting
+[Whale Alert Signals] Saved: **The opportunities you hesitate to pursue are often those from which others are currently profiting
+   -> Analyzing with Groq AI: **$110k successfully sent **💰 @ $110k
+[Exporter] Saved item: **$110k successfully sent **💰
+[Whale Alert Signals] Saved: **$110k successfully sent **💰
+   -> Analyzing with Groq AI: **$26k successfully sent **💰 @ $26k
+[Exporter] Saved item: **$26k successfully sent **💰
+[Whale Alert Signals] Saved: **$26k successfully sent **💰
+   -> Analyzing with Groq AI: **$60k successfully sent **💰 @ $60k
+[Exporter] Saved item: **$60k successfully sent **💰
+[Whale Alert Signals] Saved: **$60k successfully sent **💰
+   -> Analyzing with Groq AI: **$156k successfully sent **💰 @ $156k
+[Exporter] Saved item: **$156k successfully sent **💰
+[Whale Alert Signals] Saved: **$156k successfully sent **💰
+   -> Analyzing with Groq AI: **$150k successfully sent **💰 @ $150k
+[Exporter] Saved item: **$150k successfully sent **💰
+[Whale Alert Signals] Saved: **$150k successfully sent **💰
+   -> Analyzing with Groq AI: **$100k successfully sent **💰 @ $100k
+[Exporter] Saved item: **$100k successfully sent **💰
+[Whale Alert Signals] Saved: **$100k successfully sent **💰
+   -> Analyzing with Groq AI: **$85k successfully sent **💰 @ $85k
+[Exporter] Saved item: **$85k successfully sent **💰
+[Whale Alert Signals] Saved: **$85k successfully sent **💰
+   -> Analyzing with Groq AI: **$200k successfully sent **💰 @ $200k
+[Exporter] Saved item: **$200k successfully sent **💰
+[Whale Alert Signals] Saved: **$200k successfully sent **💰
+   -> Analyzing with Groq AI: **$100k successfully sent **💰 @ $100k
+[Exporter] Saved item: **$100k successfully sent **💰
+[Whale Alert Signals] Saved: **$100k successfully sent **💰
+[Exporter] Saved item: Today's payouts have been successfully processed.
+[Whale Alert Signals] Saved: Today's payouts have been successfully processed.
+   -> Analyzing with Groq AI: **SPECIAL OFFER.... Recover your loss. @ $200
+[Exporter] Saved item: **SPECIAL OFFER.... Recover your loss.
+[Whale Alert Signals] Saved: **SPECIAL OFFER.... Recover your loss.
+[Exporter] Saved item: 💰🤑💵💸💰💵💸🤑🤑
+[Whale Alert Signals] Saved: 💰🤑💵💸💰💵💸🤑🤑
+--- Backfill Complete ---
+
+Listening for NEW messages on channels: ['@Whalesguide', '@icodrops', '@WhaleAlert_Official_Signals']
